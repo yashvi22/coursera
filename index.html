@@ -1,41 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>module 2 solution</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=screen-width initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>food llc</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 </head>
 <body>
-	<h1>Menu Page </h1>
-	
-		<div  class="row">
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="box">
-					<h3>Pasta</h3>
-					<p >
-						Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking.
+	<header id="top">
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-brand">
+					<a href="index.html"><h1>Food LLC</h1>
+					</a>
+				</div>
+				<button class="navbar-toggler visible-xs pull-right" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" >
+					<span class="sr-only">Toggle navigation</span>
+					<span class="navbar-toggler-icon"></span>
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="collapsable-nav" class="collapse navbar-collapse hidden-">
+				<ul class="nav navbar-nav navbar-right visible-xs">
+					<li class="nav-item">
+						<a class="nav-link" href="#chicken">
+							chicken
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#beef">beef
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sushi">sushi
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div>
+		<h2 class="text-center" > Our menu</h2>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class=" col-lg-4 col-md-6 col-sm-12">
+				<div id="chicken">
+					<h4 class="text-center">chicken</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+						<br><a href="#top"> back to top</a>
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">
-				<div class="box">
-					<h3>Pizza</h3>
-					<p >
-						Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.
+			<div class=" col-lg-4 col-md-6 col-sm-12">
+				<div id="beef">
+					<h4 class="text-center">beef</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+						<br><a href="#top"> back to top</a>
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-12 col-sm-12" >
-				<div class="box">
-					<h3>Garlic bread</h3>
-					<p >
-						Garlic bread consists of bread, topped with garlic and olive oil or butter and may include additional herbs, such as oregano or chives. It is then either grilled or broiled until toasted or baked in a conventional or bread oven.
+			<div class=" col-lg-4 col-md-12 col-sm-12">
+				<div id="sushi">
+					<h4 class="text-center">sushi</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+						<br><a href="#top"> back to top</a>
 					</p>
 				</div>
 			</div>
-			
 		</div>
-	
+		
+	</div>
+
+
+
+
 </body>
 </html>
